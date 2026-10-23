@@ -122,6 +122,10 @@ The dashboard has three pages (Overview, Pareto, SPC) built on a **star-schema m
 
 The dataset is **generated**, modelled on CNC bore machining, and was created for this practice project. The patterns were planted and then found blind. The methods are the same as on real plant data. See [`data/README.md`](data/README.md).
 
+## How this project was built
+
+Built as a learning project with an AI assistant (Claude) as coach and pair programmer. The AI generated the practice dataset, explained concepts, reviewed my queries and code, and helped write and package parts of the code and the deck. I worked through each question, checked the results against each other (SQL, Python and Power BI give the same numbers), and made the analysis decisions, interpretations and recommendations. I built the Power BI dashboard myself.
+
 ## Skills demonstrated
 
 - **SPC:** X̄-R charts, Western Electric rules, Cp/Cpk/Pp/Ppk, capability analysis.
@@ -129,6 +133,7 @@ The dataset is **generated**, modelled on CNC bore machining, and was created fo
 - **SQL:** data profiling and cleaning, window functions, fan-out-safe aggregation.
 - **Power BI:** data modelling (star schema) and DAX.
 - **Quality engineering:** root-cause analysis, PPAP context, presenting findings to stakeholders.
+- **Working with AI:** using an AI assistant to learn faster and work more efficiently, while checking its output against independent results.
 
 ---
 
